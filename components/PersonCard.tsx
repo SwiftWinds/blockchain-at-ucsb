@@ -5,11 +5,13 @@ import { CldImage } from "next-cloudinary";
 export default function PersonCard({
   firstName,
   lastName,
+  position,
   imageID,
   bio,
 }: {
   firstName: string;
   lastName: string;
+  position: string;
   imageID: string;
   bio: string;
 }) {
@@ -49,7 +51,7 @@ export default function PersonCard({
         </h3>
 
         <p data-sb-field-path=".role" className="m-0">
-          President
+          {position}
         </p>
         <div className="mt-4" data-sb-field-path=".bio">
           <p className="m-0">{bio}</p>
