@@ -33,7 +33,7 @@ function getPeopleDescriptions(): {
   };
 }
 
-export default function About({ children }: { children: ReactNode }) {
+export default function About() {
   const { people } = getPeopleDescriptions();
 
   return (
