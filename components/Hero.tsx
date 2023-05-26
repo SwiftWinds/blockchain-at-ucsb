@@ -34,8 +34,8 @@ export default function Hero() {
       </div>
       <div className="my-0 w-full lg:my-0 lg:mr-0 lg:ml-8">
         <CldImage
-          width="702"
-          height="490"
+          width="536"
+          height="374"
           src="logos/hero"
           alt="Blockchain @ UCSB logo"
           priority
